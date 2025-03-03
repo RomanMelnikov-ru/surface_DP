@@ -4,7 +4,7 @@ import streamlit as st
 from sqlalchemy import false
 
 # Заголовок приложения
-st.title("Визуализация критерия Друккера-Прагера")
+st.title("Визуализация критерия Друкера-Прагера")
 
 # Слайдеры для прочностных параметров
 c = st.slider("Удельное сцепление (c, кПа)", min_value=0.0, max_value=50.0, value=10.0, step=5.0)
